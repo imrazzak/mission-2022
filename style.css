@@ -1,0 +1,205 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d937122;
+}
+
+/* Common CSS */
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding: 80px 120px 0;
+}
+
+.title-color {
+    color: #1d9371;
+}
+
+.flex-half {
+    width: 50%;
+}
+
+.flex-triple {
+    width: 33.3%;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* Images CSS */
+
+.mbi {
+    height: 70px;
+    width: 70px;
+}
+
+.flex-triple .dli {
+    width: 90%;
+    float: right;
+}
+
+.contact .dli {
+    width: 90%;
+}
+
+/* FAUL CSS */
+
+.hero-mission {
+    background-image: linear-gradient(to bottom, rgba(29, 147, 113, 0.226), rgba(29, 147, 113, 0.109));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.mission-banner-text h1 {
+    font-size: 42px;
+    font-family: 'Fredoka One', cursive;
+    border-left: 7px solid #1d9371;
+    padding-left: 13px;
+    border-radius: 3px;
+}
+
+.qp {
+    color: #3337;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.qp::before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    background-color: #1d937166;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.link-btn {
+    background-color: #1d9371;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: all .3s;
+}
+
+.link-btn:hover {
+    padding: 15px 45px;
+    box-shadow: 1px 2px 20px -4px #1d9371;
+}
+
+.hero-image {
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+.mission {
+    background-image: url(images/dots.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.mission h1 {
+    text-align: center;
+}
+
+.mission-box {
+    padding: 30px;
+    border-radius: 12px;
+    margin: 22px;
+}
+
+#mission {
+    background-color: #c9ceda;
+}
+
+#vision {
+    background-color: #d9e4c0;
+}
+
+#goal {
+    background: #98d6be;
+}
+
+.daily-life {
+    background-image: url(/images/dots2.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.shape {
+    background-image: url(/images/shape.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 320px;
+}
+
+.daily-life-text {
+    padding-left: 8%;
+}
+
+.team .team-text {
+    padding-left: 2%;
+    padding-right: 8%;
+}
+
+.team .dli {
+    border-radius: 6%;
+}
+
+.team {
+    background-image: url(/images/fav.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 240px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #1d937166;
+    width: 70%;
+    padding: 16px 20px;
+    outline: none;
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+}
+
+.contact-form button.link-btn {
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background: #151427;
+    text-align: center;
+    padding: 26px 0;
+    color: #fff7;
+}
+
+footer h2 {
+    margin: 0;
+    font-family: 'Fredoka One', sans-serif;
+}
